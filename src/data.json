@@ -1,0 +1,59 @@
+{
+     "products": [
+          {
+               "_id": "dress1",
+               "titel": "Dress 1 titele",
+               "image": "/images/dress1.jpg",
+               "description": "about Dress 1",
+               "price": 45,
+               "availableSizes": [
+                    "XL",
+                    "XXL"
+               ]
+          },
+          {
+               "_id": "dress1",
+               "titel": "Dress 1 titele",
+               "image": "/images/dress1.jpg",
+               "description": "about Dress 1",
+               "price": 45,
+               "availableSizes": [
+                    "XL",
+                    "XXL"
+               ]
+          },
+          {
+               "_id": "dress1",
+               "titel": "Dress 1 titele",
+               "image": "/images/dress1.jpg",
+               "description": "about Dress 1",
+               "price": 45,
+               "availableSizes": [
+                    "XL",
+                    "XXL"
+               ]
+          },
+          {
+               "_id": "dress1",
+               "titel": "Dress 1 titele",
+               "image": "/images/dress1.jpg",
+               "description": "about Dress 1",
+               "price": 45,
+               "availableSizes": [
+                    "XL",
+                    "XXL"
+               ]
+          },
+          {
+               "_id": "dress1",
+               "titel": "Dress 1 titele",
+               "image": "/images/dress1.jpg",
+               "description": "about Dress 1",
+               "price": 45,
+               "availableSizes": [
+                    "XL",
+                    "XXL"
+               ]
+          }
+     ]
+}
