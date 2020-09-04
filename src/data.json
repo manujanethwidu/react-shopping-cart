@@ -2,7 +2,7 @@
      "products": [
           {
                "_id": "dress1",
-               "titel": "Dress 1 titele",
+               "title": "Dress 1 titlee",
                "image": "/images/dress1.jpg",
                "description": "about Dress 1",
                "price": 45,
@@ -12,44 +12,44 @@
                ]
           },
           {
-               "_id": "dress1",
-               "titel": "Dress 1 titele",
-               "image": "/images/dress1.jpg",
-               "description": "about Dress 1",
-               "price": 45,
+               "_id": "dress2",
+               "title": "Dress 2 titlee",
+               "image": "/images/dress2.jpg",
+               "description": "about Dress 2",
+               "price": 26,
+               "availableSizes": [
+                    "S",
+                    "XXL"
+               ]
+          },
+          {
+               "_id": "dress3",
+               "title": "Dress 3 titlee",
+               "image": "/images/dress3.jpg",
+               "description": "about Dress 3",
+               "price": 12,
+               "availableSizes": [
+                    "XL",
+                    "L"
+               ]
+          },
+          {
+               "_id": "dress4",
+               "title": "Dress 4 titlee",
+               "image": "/images/dress4.jpg",
+               "description": "about Dress 4",
+               "price": 79,
                "availableSizes": [
                     "XL",
                     "XXL"
                ]
           },
           {
-               "_id": "dress1",
-               "titel": "Dress 1 titele",
-               "image": "/images/dress1.jpg",
-               "description": "about Dress 1",
-               "price": 45,
-               "availableSizes": [
-                    "XL",
-                    "XXL"
-               ]
-          },
-          {
-               "_id": "dress1",
-               "titel": "Dress 1 titele",
-               "image": "/images/dress1.jpg",
-               "description": "about Dress 1",
-               "price": 45,
-               "availableSizes": [
-                    "XL",
-                    "XXL"
-               ]
-          },
-          {
-               "_id": "dress1",
-               "titel": "Dress 1 titele",
-               "image": "/images/dress1.jpg",
-               "description": "about Dress 1",
-               "price": 45,
+               "_id": "dress5",
+               "title": "Dress 5 titlee",
+               "image": "/images/dress5.jpg",
+               "description": "about Dress 5",
+               "price": 158,
                "availableSizes": [
                     "XL",
                     "XXL"
