@@ -19,7 +19,8 @@
                "price": 26,
                "availableSizes": [
                     "S",
-                    "XXL"
+                    "XXL",
+                    "L"
                ]
           },
           {
@@ -30,6 +31,9 @@
                "price": 12,
                "availableSizes": [
                     "XL",
+                 
+                    "M",
+                    "XXL",
                     "L"
                ]
           },
