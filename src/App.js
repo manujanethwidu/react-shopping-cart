@@ -11,7 +11,7 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      cartItems: localStorage.getItem("cartItems")? JSON.parse(localStorage.getItem("cartItems")):[],
+      cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : [],
       products: data.products,
       size: "",
       sort: ""
@@ -65,8 +65,11 @@ class App extends React.Component {
       cartItems: cartItems.filter(x => x._id !== product._id)
     })
     localStorage.setItem("cartItems",
-      JSON.stringify( cartItems.filter(x => x._id !== product._id)))
+      JSON.stringify(cartItems.filter(x => x._id !== product._id)))
 
+  }
+  createOrder = (order) => {
+    alert('need to avave for ' + order.name)
   }
   render() {
     return (
@@ -88,7 +91,7 @@ class App extends React.Component {
               <Products products={this.state.products} addToCart={this.addToCart} />
             </div>
             <div className="sidebar">
-              <Cart cartItems={this.state.cartItems} removeFromCart={this.removeFromCart} />
+              <Cart cartItems={this.state.cartItems} removeFromCart={this.removeFromCart} createOrder={this.createOrder} />
             </div>
           </div>
         </main>
