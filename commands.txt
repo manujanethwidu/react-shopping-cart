@@ -1,2 +1,5 @@
 npm install react-reveal
 npm install react-model
+
+npm i nodemon
+npm install express body-parser mongoose shortid
