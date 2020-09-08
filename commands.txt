@@ -1,0 +1,2 @@
+npm install react-reveal
+npm install react-model
