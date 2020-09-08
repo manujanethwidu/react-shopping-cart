@@ -200,3 +200,31 @@ input{
   border: 0.1rem #c0c0c0 solid ;
   border-radius: .7rem;
 }
+
+
+/* Prodcut Details */
+
+.product-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 80vh;
+}
+.product-details img{
+  max-height: 100vh;
+  max-width: 20rem;
+  margin: 0cm;
+}
+
+.product-details-description{
+  flex: 1 1;
+  margin: 1rem;
+}
+
+.close-model{
+  position: absolute;
+  right:   1rem;
+  top: 2.5rem;
+  z-index: 1000;
+}
+
