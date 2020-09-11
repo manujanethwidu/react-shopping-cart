@@ -5,7 +5,8 @@ import data from './data.json'
 import Products from './component/Products';
 import Filter from './component/Filter';
 import Cart from './component/Cart';
-
+import store from './store';
+import {Provider} from 'react-redux'
 
 class App extends React.Component {
   constructor() {
@@ -72,9 +73,11 @@ class App extends React.Component {
     alert('need to avave for ' + order.name)
   }
   render() {
+
     return (
+      <Provider store={store}>
       <div className="grid-container">
-        <header>
+      <header>
           <a href="/">Ract Shopping Cart</a>
         </header>
         <main>
@@ -99,6 +102,7 @@ class App extends React.Component {
           All Rights are recived
         </footer>
       </div>
+      </Provider>
     );
   }
 }

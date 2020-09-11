@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade'
 import Zoom from 'react-reveal/Zoom'
 import Modal from 'react-modal'
+import { connect } from 'mongoose'
+import {fethchProducts} from '../actions/productActions'
 
-export default class products extends Component {
+class products extends Component {
      constructor(props) {
           super(props)
           this.state = {
@@ -86,3 +88,4 @@ export default class products extends Component {
           )
      }
 }
+
