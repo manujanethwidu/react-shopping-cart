@@ -2,10 +2,11 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const shortid = require("shortid");
+var cors = require('cors')
 
 const app = express();
 app.use(bodyParser.json());
-
+app.use(cors())
 mongoose.connect("mongodb+srv://netninga:manujaputha1@cluster0.chue9.mongodb.net/react-shopping-cart-db?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useCreateIndex: true,
